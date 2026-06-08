@@ -245,8 +245,8 @@ export default function SavesTheCity() {
                   src="/images/suitman_flying.png"
                   alt="Suit-Man saving the city"
                   width={200}
-                  height={280}
-                  style={{ objectFit: 'contain' }}
+                  height={200}
+                  style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
                 />
               </motion.div>
             </motion.div>

@@ -234,8 +234,8 @@ export default function KidsSection() {
                     src="/images/suitman_flying.png"
                     alt="Suit-Man flying above children"
                     width={220}
-                    height={308}
-                    style={{ objectFit: 'contain' }}
+                    height={220}
+                    style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
                   />
                 </motion.div>
               </div>

@@ -193,7 +193,7 @@ export default function SuitManFlying() {
           priority
           style={{
             width: '100%',
-            height: '100%',
+            height: 'auto',
             objectFit: 'contain',
           }}
         />

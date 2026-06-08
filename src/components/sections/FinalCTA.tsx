@@ -119,8 +119,8 @@ export default function FinalCTA() {
             src="/images/suitman_flying.png"
             alt="Suit-Man flying toward you"
             width={250}
-            height={350}
-            style={{ objectFit: 'contain' }}
+            height={250}
+            style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
             priority
           />
         </motion.div>
