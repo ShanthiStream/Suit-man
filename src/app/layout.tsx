@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Suit-Man | The Data Engineer Who Became A Superhero",
+  title: "Suit-Man",
   description:
     "Meet Suit-Man — a regular data engineer who received a mysterious glowing red tie and became the world's most unlikely superhero. Discover the origin story, powers, and adventures of the hero children everywhere look up to.",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "comic",
   ],
   openGraph: {
-    title: "Suit-Man | The Data Engineer Who Became A Superhero",
+    title: "Suit-Man",
     description:
       "From SQL queries to saving the city — the incredible origin story of Suit-Man.",
     type: "website",
