@@ -201,7 +201,7 @@ function TieTransformation() {
             }}
           >
             <Image
-              src="/images/glowing_power_tie.png"
+              src="/images/glowing_power_tie.webp"
               alt="Glowing Super Power Tie"
               fill
               sizes="(max-width: 768px) 192px, 192px"
@@ -225,7 +225,7 @@ function TieTransformation() {
       >
         <div className="relative mb-3 w-40 h-56">
           <Image
-            src="/images/suitman_flying.png"
+            src="/images/suitman_flying.webp"
             alt="Suit-Man Born"
             fill
             sizes="(max-width: 768px) 160px, 160px"
@@ -347,7 +347,7 @@ export default function MysteriousPackage() {
           <div>
             <StoryStep step={1} text="It was late. The office was nearly empty. Only the glow of monitors lit the room." delay={0.1} />
             <StoryStep step={2} text="Then a package arrived. No sender. No label. No explanation." delay={0.2} />
-            <StoryStep step={3} text='Inside was a perfectly folded red tie. Dinesh laughed. "A tie? Seriously?"' highlighted="red tie" delay={0.3} />
+            <StoryStep step={3} text='Inside was a perfectly folded red tie. He laughed. "A tie? Seriously?"' highlighted="red tie" delay={0.3} />
             <StoryStep step={4} text="But the moment he put it on... Something impossible happened." highlighted="impossible" delay={0.4} />
             <StoryStep step={5} text="The tie began to glow. Electric energy surged through the room. Screens flashed." highlighted="glow" delay={0.5} />
             <StoryStep step={6} text="Data streams spiraled around him. And a magnificent red cape materialized from thin air." highlighted="red cape" delay={0.6} />

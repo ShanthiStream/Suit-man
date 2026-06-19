@@ -231,7 +231,7 @@ export default function KidsSection() {
                   }}
                 >
                   <Image
-                    src="/images/suitman_flying.png"
+                    src="/images/suitman_flying.webp"
                     alt="Suit-Man flying above children"
                     width={220}
                     height={220}

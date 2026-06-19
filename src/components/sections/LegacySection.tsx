@@ -18,7 +18,7 @@ const legacyPillars = [
   {
     icon: '💎',
     title: 'Hidden Potential in Everyone',
-    body: 'The superhero was always inside Dinesh. The tie just helped it come out.',
+    body: 'The superhero was always inside him. The tie just helped it come out.',
     color: '#F59E0B',
   },
 ];

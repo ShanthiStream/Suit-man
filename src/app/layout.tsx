@@ -19,12 +19,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Suit-Man | The Data Engineer Who Became A Superhero",
   description:
-    "Meet Suit-Man — Dinesh, a regular data engineer who received a mysterious glowing red tie and became the world's most unlikely superhero. Discover the origin story, powers, and adventures of the hero children everywhere look up to.",
+    "Meet Suit-Man — a regular data engineer who received a mysterious glowing red tie and became the world's most unlikely superhero. Discover the origin story, powers, and adventures of the hero children everywhere look up to.",
   keywords: [
     "Suit-Man",
     "superhero",
     "data engineer",
-    "Dinesh",
+    "origin story",
     "animated hero",
     "comic",
   ],

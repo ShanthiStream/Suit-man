@@ -7,7 +7,7 @@ const villains = [
   {
     id: 'captain-deadline',
     name: 'Captain Deadline',
-    image: '/images/captain_deadline.png',
+    image: '/images/captain_deadline.webp',
     subtitle: 'Master of Impossible Timelines',
     description: 'Appears from nowhere with "we need this by end of day" at 4:58 PM on a Friday.',
     power: 'Infinite Timeline Compression',
@@ -20,7 +20,7 @@ const villains = [
   {
     id: 'null-pointer',
     name: 'The Null Pointer',
-    image: '/images/null_pointer.png',
+    image: '/images/null_pointer.webp',
     subtitle: 'Creator of Mysterious Failures',
     description: 'Causes cryptic NullPointerExceptions with no stack trace. Delights in ambiguity and chaos.',
     power: 'Null Reference Injection',
@@ -33,7 +33,7 @@ const villains = [
   {
     id: 'lord-missing-data',
     name: 'Lord Missing Data',
-    image: '/images/lord_missing_data.png',
+    image: '/images/lord_missing_data.webp',
     subtitle: 'Deleter of Critical Records',
     description: 'Makes entire dataset disappear right before quarterly reviews. Leaves no trace. No backups.',
     power: 'Data Erasure Field',
@@ -46,7 +46,7 @@ const villains = [
   {
     id: 'dashboard-destroyer',
     name: 'The Dashboard Destroyer',
-    image: '/images/dashboard_destroyer.png',
+    image: '/images/dashboard_destroyer.webp',
     subtitle: 'Breaker of Executive Reports',
     description: 'Exclusively strikes 3 minutes before the CEO presentation. Never before. Never after.',
     power: 'Selective Report Corruption',
@@ -59,7 +59,7 @@ const villains = [
   {
     id: 'dr-production-bug',
     name: 'Dr. Production Bug',
-    image: '/images/dr_production_bug.png',
+    image: '/images/dr_production_bug.webp',
     subtitle: 'Friday Evening Terror',
     description: 'Exclusively deploys catastrophic bugs at 5:01 PM on Fridays. Has never struck on a Tuesday.',
     power: 'Weekend Deployment Corruption',

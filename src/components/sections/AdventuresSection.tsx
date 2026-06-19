@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const featuredVideo = {
   id: 'cRpbhs7UuwA',
   title: 'Trading screen time for story time! 🦸‍♂️📖',
-  description: 'Balance is a superpower! Suit-Man (Dinesh) helps kids and families trade screen time for story time, making reading the ultimate hero adventure.',
+  description: 'Balance is a superpower! Suit-Man helps kids and families trade screen time for story time, making reading the ultimate hero adventure.',
   duration: '0:42',
   views: '26 views',
   category: 'Special',
@@ -97,7 +97,7 @@ function VideoThumbnail({
         <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
           <span className="text-4xl mb-1">🎬</span>
           <span className="font-heading font-black text-xs text-center text-blue-300 tracking-wider">
-            @THE_REAL_DINESH
+            @THE_REAL_SUITMAN
           </span>
         </div>
       </div>
@@ -324,7 +324,7 @@ export default function AdventuresSection() {
               whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
               onClick={() => {
                 if ('isLink' in video && video.isLink) {
-                  window.open("https://www.youtube.com/@the_real_dinesh", "_blank", "noopener,noreferrer");
+                  window.open("https://www.youtube.com/@the_real_suitman", "_blank", "noopener,noreferrer");
                   return;
                 }
                 setActiveVideo({
@@ -385,7 +385,7 @@ export default function AdventuresSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <a
-            href="https://www.youtube.com/@the_real_dinesh"
+            href="https://www.youtube.com/@the_real_suitman"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-hero btn-primary inline-flex items-center gap-3"

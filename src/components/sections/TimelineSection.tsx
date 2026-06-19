@@ -61,7 +61,7 @@ const timelineEvents = [
   {
     year: 'Year 1',
     label: 'First SQL Query',
-    description: 'A young Dinesh writes his very first SELECT statement. The data world will never be the same.',
+    description: 'A young Suit-Man writes his very first SELECT statement. The data world will never be the same.',
     icon: '💻',
     color: '#3B82F6',
     side: 'right',

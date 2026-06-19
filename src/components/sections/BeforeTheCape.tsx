@@ -224,7 +224,7 @@ export default function BeforeTheCape() {
             </span>
           </h2>
           <p className="font-body text-white/60 max-w-2xl mx-auto" style={{ fontSize: '1.1rem' }}>
-            By day, Dinesh fought a different kind of battle — one where the villains were broken data pipelines and the weapons were SQL queries.
+            By day, Suit-Man fought a different kind of battle — one where the villains were broken data pipelines and the weapons were SQL queries.
           </p>
         </motion.div>
 

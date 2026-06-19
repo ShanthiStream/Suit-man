@@ -9,7 +9,7 @@ import MysteriousPackage from '@/components/sections/MysteriousPackage';
 import PowersSection from '@/components/sections/PowersSection';
 import SavesTheCity from '@/components/sections/SavesTheCity';
 import VillainsSection from '@/components/sections/VillainsSection';
-import AdventuresSection from '@/components/sections/AdventuresSection';
+import SocialSection from '@/components/sections/SocialSection';
 import TimelineSection from '@/components/sections/TimelineSection';
 import KidsSection from '@/components/sections/KidsSection';
 import LegacySection from '@/components/sections/LegacySection';
@@ -49,8 +49,8 @@ export default function Home() {
         {/* Section 6 - Villains */}
         <VillainsSection />
 
-        {/* Section 7 - Adventures */}
-        <AdventuresSection />
+        {/* Section 7 - Social Media */}
+        <SocialSection />
 
         {/* Section 8 - Timeline */}
         <TimelineSection />

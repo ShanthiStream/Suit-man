@@ -17,7 +17,7 @@ export default function Navbar() {
     { label: 'Origin', href: '#origin' },
     { label: 'Powers', href: '#powers' },
     { label: 'Villains', href: '#villains' },
-    { label: 'Adventures', href: '#adventures' },
+    { label: 'Socials', href: '#socials' },
     { label: 'Timeline', href: '#timeline' },
   ];
 
@@ -42,7 +42,7 @@ export default function Navbar() {
               style={{ boxShadow: '0 0 15px rgba(239, 68, 68, 0.3)' }}
             >
               <Image
-                src="/images/Suitman_face.jpeg"
+                src="/images/Suitman_face.webp"
                 alt="Suit-Man logo"
                 width={40}
                 height={40}
@@ -73,11 +73,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#adventures"
+              href="#socials"
               className="btn-hero btn-primary text-sm px-5 py-2.5"
               id="nav-cta"
             >
-              ▶ Watch Adventures
+              📱 Follow Suit-Man
             </a>
           </div>
 
@@ -131,11 +131,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#adventures"
+            href="#socials"
             className="btn-hero btn-primary text-sm text-center"
             onClick={() => setMenuOpen(false)}
           >
-            ▶ Watch Adventures
+            📱 Follow Suit-Man
           </a>
         </div>
       </div>

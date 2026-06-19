@@ -103,7 +103,7 @@ export default function SuitManFlying() {
       // Battle barrel rolls
       .to(character, { rotate: -360, duration: 0.8, ease: 'power2.inOut' })
       .to(character, { rotate: 0, duration: 0.2 })
-      // Section 7 - adventures, fly calmly
+      // Section 7 - socials, fly calmly
       .set(character, { scaleX: 1, x: -cw, y: H * 0.3 })
       .to(character, { x: W * 0.8, y: H * 0.2, duration: 4, ease: 'sine.inOut' })
       // Section 8 - timeline, hover slowly
@@ -186,7 +186,7 @@ export default function SuitManFlying() {
         }}
       >
         <Image
-          src="/images/suitman_flying.png"
+          src="/images/suitman_flying.webp"
           alt="Suit-Man flying"
           width={200}
           height={200}

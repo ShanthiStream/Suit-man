@@ -210,7 +210,7 @@ export default function PowersSection() {
           </h2>
 
           <p className="font-body text-white/60 max-w-2xl mx-auto" style={{ fontSize: '1.1rem' }}>
-            At first, Dinesh thought he was dreaming. Then he accidentally flew through the office ceiling. Over the next few weeks, he discovered incredible abilities.
+            At first, Suit-Man thought he was dreaming. Then he accidentally flew through the office ceiling. Over the next few weeks, he discovered incredible abilities.
           </p>
         </motion.div>
 

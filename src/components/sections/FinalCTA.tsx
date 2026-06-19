@@ -116,7 +116,7 @@ export default function FinalCTA() {
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
           <Image
-            src="/images/suitman_flying.png"
+            src="/images/suitman_flying.webp"
             alt="Suit-Man flying toward you"
             width={250}
             height={250}
@@ -187,9 +187,9 @@ export default function FinalCTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <a href="#adventures" className="btn-hero btn-primary" id="final-watch-btn">
-            <span>▶</span>
-            Watch Adventures
+          <a href="#socials" className="btn-hero btn-primary" id="final-watch-btn">
+            <span>📱</span>
+            Follow Suit-Man
           </a>
           <a
             href="#origin"

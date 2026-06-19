@@ -84,7 +84,7 @@ function Clouds() {
         transition={{ duration: 65, repeat: Infinity, ease: 'linear', delay: 0 }}
       >
         <Image
-          src="/images/pixar_cloud1.png"
+          src="/images/pixar_cloud1.webp"
           alt="Fluffy Cloud"
           width={220}
           height={220}
@@ -100,7 +100,7 @@ function Clouds() {
         transition={{ duration: 85, repeat: Infinity, ease: 'linear', delay: 25 }}
       >
         <Image
-          src="/images/pixar_cloud2.png"
+          src="/images/pixar_cloud2.webp"
           alt="Puffy Cloud"
           width={260}
           height={260}
@@ -116,7 +116,7 @@ function Clouds() {
         transition={{ duration: 50, repeat: Infinity, ease: 'linear', delay: 12 }}
       >
         <Image
-          src="/images/pixar_cloud1.png"
+          src="/images/pixar_cloud1.webp"
           alt="Small Fluffy Cloud"
           width={130}
           height={130}
@@ -144,7 +144,7 @@ function SunRays() {
         style={{ width: 240, height: 240, position: 'relative' }}
       >
         <Image
-          src="/images/pixar_sun.png"
+          src="/images/pixar_sun.webp"
           alt="Sun"
           fill
           sizes="240px"
@@ -218,11 +218,11 @@ export default function HeroSection() {
           Meet{' '}
           <span
             style={{
-              background: 'linear-gradient(135deg, #FCA5A5 0%, #EF4444 50%, #DC2626 100%)',
+              background: 'linear-gradient(135deg, #FCD34D 0%, #F59E0B 30%, #EF4444 70%, #DC2626 100%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
-              filter: 'drop-shadow(0 0 30px rgba(239,68,68,0.6))',
+              filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.7)) drop-shadow(0 0 40px rgba(239,68,68,0.6))',
             }}
           >
             Suit-Man
@@ -252,7 +252,7 @@ export default function HeroSection() {
             style={{ borderRadius: 24 }}
           >
             <p className="font-body text-white/80 leading-relaxed mb-4" style={{ fontSize: '1.05rem' }}>
-              Dinesh never dreamed of becoming a superhero. He was a data engineer. His world was filled with{' '}
+              Suit-Man never dreamed of becoming a superhero. He was a data engineer. His world was filled with{' '}
               <code className="font-mono text-sm px-1.5 py-0.5 rounded" style={{ background: 'rgba(59,130,246,0.3)', color: '#93C5FD' }}>
                 SQL queries
               </code>
@@ -275,9 +275,9 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.1 }}
         >
-          <a href="#adventures" className="btn-hero btn-primary" id="hero-watch-btn">
-            <span>▶</span>
-            Watch Adventures
+          <a href="#socials" className="btn-hero btn-primary" id="hero-watch-btn">
+            <span>📱</span>
+            Follow Suit-Man
           </a>
           <a href="#origin" className="btn-hero btn-secondary" id="hero-origin-btn">
             <span>⚡</span>

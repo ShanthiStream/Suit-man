@@ -242,7 +242,7 @@ export default function SavesTheCity() {
                 }}
               >
                 <Image
-                  src="/images/suitman_flying.png"
+                  src="/images/suitman_flying.webp"
                   alt="Suit-Man saving the city"
                   width={200}
                   height={200}
