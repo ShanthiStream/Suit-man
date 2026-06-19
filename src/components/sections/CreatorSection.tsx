@@ -102,7 +102,7 @@ export default function CreatorSection() {
                 Dinesh
               </h3>
               <p className="font-body text-xs text-purple-400/70 mb-4">
-                Data &amp; AI Lead
+                The Architect Behind the Cape
               </p>
 
               {/* Links — compact */}
