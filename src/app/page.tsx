@@ -13,6 +13,7 @@ import SocialSection from '@/components/sections/SocialSection';
 import TimelineSection from '@/components/sections/TimelineSection';
 import KidsSection from '@/components/sections/KidsSection';
 import LegacySection from '@/components/sections/LegacySection';
+import CreatorSection from '@/components/sections/CreatorSection';
 import FinalCTA from '@/components/sections/FinalCTA';
 
 // Dynamically import GSAP-heavy component (SSR off)
@@ -60,6 +61,9 @@ export default function Home() {
 
         {/* Section 10 - Legacy */}
         <LegacySection />
+
+        {/* Section 11 - Creator */}
+        <CreatorSection />
 
         {/* Final CTA */}
         <FinalCTA />

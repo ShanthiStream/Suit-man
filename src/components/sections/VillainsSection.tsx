@@ -100,18 +100,6 @@ function VillainCard({ villain, index }: { villain: typeof villains[0]; index: n
         }}
       />
 
-      {/* Danger badge */}
-      <div
-        className="absolute top-3 right-3 px-2 py-1 rounded font-mono text-xs font-bold z-10"
-        style={{
-          background: `${villain.badgeColor}20`,
-          border: `1px solid ${villain.badgeColor}50`,
-          color: villain.badgeColor,
-        }}
-      >
-        {villain.badge}
-      </div>
-
       {/* Content */}
       <div className="p-6 relative z-10">
         {/* Villain Image Card with Glow */}
@@ -131,6 +119,18 @@ function VillainCard({ villain, index }: { villain: typeof villains[0]; index: n
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover"
           />
+          {/* Danger badge */}
+          <div
+            className="absolute top-3 right-3 px-2 py-1 rounded font-mono text-[10px] font-bold z-20"
+            style={{
+              background: 'rgba(15, 23, 42, 0.85)',
+              border: `1px solid ${villain.badgeColor}`,
+              color: villain.badgeColor,
+              backdropFilter: 'blur(4px)',
+            }}
+          >
+            {villain.badge}
+          </div>
         </motion.div>
 
         <h3
