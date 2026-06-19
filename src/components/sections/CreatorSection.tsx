@@ -147,7 +147,7 @@ export default function CreatorSection() {
             <div className="flex-1 p-6 sm:p-8">
               {/* Story text */}
               <p className="font-body text-white/65 text-sm leading-relaxed mb-2">
-                Dinesh never planned to create a superhero. As a Data &amp; AI Lead, his days were filled with
+                Dinesh never planned to create a superhero. As a Data &amp; AI Practitioner, his days were filled with
                 pipelines, models, and production deploys. But somewhere between
                 a <code className="font-mono text-xs px-1 py-0.5 rounded" style={{ background: 'rgba(59,130,246,0.15)', color: '#93C5FD' }}>git commit</code> and
                 a coffee refill, an idea took shape.
